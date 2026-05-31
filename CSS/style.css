@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.4rem 5%;
+    padding: 1.4rem 2%;
     background-color: rgb(1, 1, 1, 0.8);
     border-bottom: 1px solid #513c28;
     position: fixed;
@@ -155,6 +155,7 @@ body {
 .jantan,
 .perawakan,
 .buah,
+.perbandingan,
 .identitas,
 .perawakan-daun-batang {
     padding: 8rem 7% 1.4rem;
@@ -165,6 +166,7 @@ body {
 .jantan h2,
 .perawakan h2,
 .buah h2,
+.perbandingan h2,
 .identitas h2,
 .perawakan-daun-batang h2 {
     text-align: center;
@@ -176,7 +178,8 @@ body {
 .about h2 span,
 .betina h2 span,
 .jantan h2 span,
-.perawakan h2 span {
+.perawakan h2 span,
+.perbandingan h2 span {
     color: #140505;
 }
 
@@ -185,7 +188,8 @@ body {
 .betina .row .about-img,
 .jantan .row .abaout-img,
 .perawakan-daun-batang .row .about-img,
-.buah .row .about-img {
+.buah .row .about-img,
+.perbandingan .row .about-img {
     flex: 1 1 45rem;
 }
 
@@ -193,7 +197,8 @@ body {
 .betina .row .about-img img,
 .jantan .row .about-img img,
 .perawakan-daun-batang .row .about-img img,
-.buah .row .about-img img {
+.buah .row .about-img img,
+.perbandingan .row .about-img img {
     width: 100%;
 }
 
@@ -202,6 +207,7 @@ body {
 .jantan .row .content,
 .perawakan-daun-batang .row .content,
 .buah .row .content,
+.perbandingan .row .content,
 .identitas .row .content {
     flex: 1 1 35rem;
     padding: 0 1rem;
@@ -229,6 +235,7 @@ body {
     font-weight: 100;
     line-height: 1.6rem;
     color: #ffffff;
+    text-align: justify;
 }
 
 /* perawakan section */
@@ -378,7 +385,6 @@ footer .credit a {
     color: var(--bg);
     font-weight: 700;
 }
-
 
 /* Media Quaries */
 

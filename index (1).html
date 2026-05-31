@@ -1,213 +1,286 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Herbarium digital</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
-      rel="stylesheet"
-    />
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herbarium digital</title>
 
-    <!-- Feather Icons -->
-    <script src="https://unpkg.com/feather-icons"></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  />
 
-    <!-- My Style -->
-    <link rel="stylesheet" href="CSS/style.css" />
-  </head>
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
 
-  <body>
-    <!-- Navbar strat -->
-    <nav class="navbar">
-      <a href="#" class="navbar-logo"><i>Carica papaya </i> L.</a>
+  <!-- My Style -->
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
 
-      <div class="navbar-nav">
-        <a href="#home">Deskripsi</a>
-        <a href="#perawakan">Perawakan</a>
-        <a href="#perawakan-daun-batang">Daun & Batang</a>
-        <a href="#about">Hermafrodit</a>
-        <a href="#betina">Betina</a>
-        <a href="#jantan">Jantan</a>
-        <a href="#buah">Buah</a>
-        <a href="#identitas">Identitas</a>
+<body>
+  <!-- Navbar strat -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo"><i>Carica papaya </i> L.</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Deskripsi</a>
+      <a href="#perawakan">Perawakan</a>
+      <a href="#perawakan-daun-batang">Daun & Batang</a>
+      <a href="#about">Hermafrodit</a>
+      <a href="#betina">Betina</a>
+      <a href="#jantan">Jantan</a>
+      <a href="#buah">Buah</a>
+      <a href="#perbandingan">Perbandingan</a>
+      <a href="#identitas">Identitas</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section start-->
+  <section class="hero" id="home">
+    <main class="content">
+      <h1>Herbarium Digital <i> Carica papaya </i>L.</h1>
+      <p>SMA NEGERI 1 KREMBUNG</p>
+      <a href="#" class="cta">Start</a>
+    </main>
+    <p>Pepaya (<i> Carica papaya </i>L.) adalah tumbuhan Angiospermae dari famili Caricaceae. Tanaman ini memiliki
+      batang lunak bergetah, daun besar berbentuk menjari, serta bunga jantan, betina, atau sempurna.Buah berdaging
+      tebal, dengan biji muda berwarna putih, dan biji tua berwarna hitam</p>
+  </section>
+  <!-- Hero Section end-->
+
+  <!-- Perawakan Section start -->
+  <section id="perawakan" class="perawakan">
+    <h2>Perawakan</h2>
+
+    <div class="row">
+      <div class="perawakan-card">
+        <img src="img/perawakan pohon.jpeg" alt="Espresso" class="perawakan-card-img" />
+        <h3 class="perawakan-card-title">- A. Pohon Betina; B. Pohon Jantan; C. Pohon Hermafrodit -</h3>
+        <p class="perawakan-card-price"></p>
       </div>
-
-      <div class="navbar-extra">
-        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      <div class="perawakan-card">
+        <img src="img/PERAWAKAN HERMAFRODIT.jpeg" alt="Espresso" class="perawakan-card-img" />
+        <h3 class="perawakan-card-title">- Hermafrodit -</h3>
+        <p class="perawakan-card-price"></p>
       </div>
-    </nav>
-    <!-- Navbar end -->
-
-    <!-- Hero Section start-->
-    <section class="hero" id="home">
-      <main class="content">
-        <h1>Herbarium Digital <i> Carica papaya </i>L.</h1>
-        <p>SMA NEGERI 1 KREMBUNG</p>
-        <a href="#" class="cta">Start</a>
-      </main>
-      <p>Pepaya (<i> Carica papaya </i>L.) adalah tumbuhan Angiospermae dari famili Caricaceae. Tanaman ini memiliki batang lunak bergetah, daun besar berbentuk menjari, serta bunga jantan, betina, atau sempurna.Buah berdaging tebal, dengan biji muda berwarna putih, dan biji tua berwarna hitam</p>
-    </section>
-    <!-- Hero Section end--> 
-
-    <!-- Perawakan Section start -->
-    <section id="perawakan" class="perawakan">
-      <h2>Perawakan</h2>
-
-      <div class="row">
-        <div class="perawakan-card">
-          <img src="img/perawakan pohon.jpeg" alt="Espresso" class="perawakan-card-img" />
-          <h3 class="perawakan-card-title">- A. Pohon Betina; B. Pohon Jantan; C. Pohon Hermafrodit -</h3>
-          <p class="perawakan-card-price"></p>
-        </div>
-        <div class="perawakan-card">
-          <img src="img/PERAWAKAN HERMAFRODIT.jpeg" alt="Espresso" class="perawakan-card-img" />
-          <h3 class="perawakan-card-title">- Hermafrodit -</h3>
-          <p class="perawakan-card-price"></p>
-        </div>
-        <div class="perawakan-card">
-          <img src="img/bunga betina 111111.jpeg" alt="Espresso" class="perawakan-card-img" />
-          <h3 class="perawakan-card-title">- Betina -</h3>
-          <p class="perawakan-card-price"></p>
-        </div>
-        <div class="perawakan-card">
-          <img src="img/jantan 111.jpeg" alt="Espresso" class="perawakan-card-img" />
-          <h3 class="perawakan-card-title">- Jantan -</h3>
-          <p class="perawakan-card-price"></p>
-        </div>
-    </section>
-    <!-- Perawakan Section end -->
-
-    <!-- Perawakan Daun & Batang Section start -->
-     <section id="perawakan-daun-batang" class="perawakan-daun-batang">
-      <h2> Daun & Batang</h2>
-
-      <div class="row">
-        <div class="about-img">
-          <img src="img/daun.jpeg" alt="Tentang Kami">
-        </div>
-        <div class="content">
-          <h3>Apomorfi Daun & Batang Pepaya</h3>
-          <p> A. Batang; B. Daun; C. Tangkai daun; D. Pertulangan daun</p>
-        </div>
+      <div class="perawakan-card">
+        <img src="img/bunga betina 111111.jpeg" alt="Espresso" class="perawakan-card-img" />
+        <h3 class="perawakan-card-title">- Betina -</h3>
+        <p class="perawakan-card-price"></p>
       </div>
-    </section>
-    <!-- Perawakan Daun & Batang Section end -->
-    
-    <!-- About Section start -->
-    <section id="about" class="about">
-      <h2>Hermafrodit</h2>
-
-      <div class="row">
-        <div class="about-img">
-          <img src="img/herma 222.jpeg" alt="Tentang Kami">
-        </div>
-        <div class="content">
-          <h3>Apomorfi Bunga Pepaya Hermafrodit</h3>
-          <p> A. Bunga tampak atas., B. Bunga tampak samping., C. Kelopak., D. Bunga tampak bakal buah., E. Benang sari; F. Putik;</p>
-          <p> G. Bakal buah tampak dibelah</p>
-        </div>
+      <div class="perawakan-card">
+        <img src="img/jantan 111.jpeg" alt="Espresso" class="perawakan-card-img" />
+        <h3 class="perawakan-card-title">- Jantan -</h3>
+        <p class="perawakan-card-price"></p>
       </div>
-    </section>
-    <!-- About Section end -->
+  </section>
+  <!-- Perawakan Section end -->
 
-    <!-- Betina Section start -->
-    <section id="betina" class="betina">
-      <h2>Betina</h2>
+  <!-- Perawakan Daun & Batang Section start -->
+  <section id="perawakan-daun-batang" class="perawakan-daun-batang">
+    <h2> Daun & Batang</h2>
 
-      <div class="row">
-        <div class="about-img">
-          <img src="img/Betina 2222.jpeg" alt="Tentang Kami">
-        </div>
-        <div class="content">
-          <h3>Apomorfi Bunga Pepaya Betina</h3>
-          <p> A. Bunga tampak atas; B. Bunga tampak samping; C. Mahkota; D. Bunga tampak bakal buah; E. Putik; F. Bakal buah tampak di belah</p>
-        </div>
+    <div class="row">
+      <div class="about-img">
+        <img src="img/DAUN 33.jpg" alt="Tentang Kami">
       </div>
-    </section>
-    <!-- Betina Section end -->
+      <div class="content">
+        <h3>Keterangan</h3>
+        <p> A. Batang; B. Daun; C. Tangkai daun; D. Pertulangan daun</p>
+        <P> Daun pada <i>Carica papaya</i> L. memiliki bentuk menjari (palmatifid), yaitu helaian daun yang lebar dengan
+          lekukan mendalam sehingga terbagi menjadi beberapa lobus yang memancar dari satu titik pusat dan menyerupai
+          telapak tangan. Daun pepaya termasuk daun tunggal yang bertangkai panjang serta tersusun spiral pada batang.
+          Selain itu, daun pepaya memiliki sistem pertulangan menjari (palminervis), yaitu beberapa tulang daun utama
+          menyebar dari pangkal daun menuju setiap lobus sehingga mampu menopang helaian daun yang luas dan membantu
+          distribusi air maupun hasil fotosintesis secara merata. Karakter bentuk daun dan pola pertulangan ini menjadi
+          ciri morfologi penting yang sering digunakan dalam identifikasi serta analisis keragaman tanaman pepaya karena
+          menunjukkan perbedaan antar varietas maupun hubungan kekerabatannya (Wardoyo <i>et al.</i>, 2024)</p>
+        <p><b>Daftar pustaka</b></p>
+        <p>Wardoyo, E. R. P., Oktavia, V., & Turnip, M. (2023). Keragaman pepaya (Carica papaya L.) di Kotamadya
+          Pontianak berdasarkan karakter morfologi. <i>Jurnal Biologi Papua, 15</i>(2), 148–156.
+          https://doi.org/10.31957/jbp.2995</p>
+    </div>
+  </section>
+  <!-- Perawakan Daun & Batang Section end -->
 
-    <!-- Jantan Section start-->
-    <section id="jantan" class="jantan">
-      <h2>Jantan</h2>
+  <!-- About Section start -->
+  <section id="about" class="about">
+    <h2>Hermafrodit</h2>
 
-      <div class="row">
-        <div class="about-img">
-          <img src="img/jantan 222.jpeg" alt="Tentang Kami">
-        </div>
-        <div class="content">
-          <h3>Apomorfi Bunga Pepaya Jantan</h3>
-          <p> A. Bunga tampak atas; B. Bunga tampak samping; C. Kelopak; D. Bakal buah; E. Benang sari</p>
-        </div>
+    <div class="row">
+      <div class="about-img">
+        <img src="img/HERMA 33.jpg" alt="Tentang Kami">
       </div>
-    </section>
-    <!-- Jantan Section end-->
+      <div class="content">
+        <h3>Keterangan</h3>
+        <p> A. Bunga tampak atas., B. Bunga tampak samping., C. Kelopak., D. Bunga tampak bakal buah., E. Benang sari;
+          F. Putik., G. Bakal buah tampak dibelah</p>
+        <p> Bunga hermafrodit pepaya (<i>Carica papaya</i> L.) memiliki dua organ reproduktif dalam satu bunga,
+          yaitu benang sari dan putik. Benang sari berfungsi menghasilkan serbuk sari, sedangkan putik berperan dalam
+          penerimaan serbuk sari, fertilisasi, dan pembentukan buah. Pepaya termasuk tanaman trioecious karena memiliki
+          tiga tipe bunga, yaitu jantan, betina, dan hermafrodit. Menurut Saran <i>et al.</i> (2024), bunga hermafrodit
+          memiliki nilai penting dalam budidaya pepaya karena berkaitan dengan pembentukan buah dan nilai komersial
+          tanaman.</p>
 
-    <!-- Buah Section start -->
-    <section id="buah" class="buah">
-      <h2>Buah</h2>
-
-      <div class="row">
-        <div class="about-img">
-          <img src="img/buah.jpeg" alt="Tentang Kami">
-        </div>
-        <div class="content">
-          <h3>Apomorfi Buah Pepaya</h3>
-          <p> A. Buah pepaya; B. Buah tampak irisan membujur; C. Buah tampak irisan melintang; D. Biji tua; E. Biji muda </p>
-        </div>
+        <p>𝐃𝐚𝐟𝐭𝐚𝐫 𝐏𝐮𝐬𝐭𝐚𝐤𝐚:</p>
+        <p>Saran, S., <i>et al.</i> (2024). Comparative proteomic analysis of papaya bud flowers reveals metabolic
+          proteins
+          associated with sex development in female and hermaphrodite flowers of papaya. <i>Scientific Reports</i>, 14,
+          Article
+          9451. https://doi.org/10.1038/s41598-024-59306-x</p>
       </div>
-    </section>
-    <!-- Buah Section end -->
+    </div>
+  </section>
+  <!-- About Section end -->
 
-    <!-- Identitas Section start -->
-    <section id="identitas" class="identitas">
-      <h2>Identitas</h2>
+  <!-- Betina Section start -->
+  <section id="betina" class="betina">
+    <h2>Betina</h2>
 
-      <div class="row">
-        <div class="content">
-           <h3>Dosen:</h3>
-          <p>Prof. Dr. Wisanti, M.S</p>
-          <p>Putut Rakhmad Purnama, S.Si., M.Si., Ph.D</p>
-
-           <h3>Disusun Oleh:</h3>
-          <p>Erlin Nazwa Zabrina NIM. 24030204031</p>
-          <p>Alfia Solihatin NIM. 24030204033</p>
-          <p>Zakiyatus Sholihah Kinanti NIM. 24030204036</p>
-        </div>
+    <div class="row">
+      <div class="about-img">
+        <img src="img/BETINA 33.jpg" alt="Tentang Kami">
       </div>
-    </section>
-    <!-- Identitas Section end -->
+      <div class="content">
+        <h3>Keterangan</h3>
+        <p> A. Bunga tampak atas; B. Bunga tampak samping; C. Mahkota; D. Bunga tampak bakal buah; E. Putik; F. Bakal
+          buah tampak di belah</p>
+        <p> Bunga betina pepaya (<i>Carica papaya</i> L.) berukuran relatif lebih besar, berwarna
+          putih kekuningan, dengan mahkota bunga yang tersusun mengelilingi putik. Bunga betina memiliki organ
+          reproduktif yang berkembang fungsional yakni gynoecium. Gynoecium adalah organ reproduksi betina pada bunga,
+          yang mencakup putik, dan ovarium/bakal buah (Zhou <i>et al.</i>, 2019).</p>
 
-    <!-- Footer start -->
-    <footer>
-
-      <div class="links">
-        <a href="#home">Deskripsi</a>
-        <a href="#perawakan">Perawakan</a>
-        <a href="#perawakan-daun-batang">Daun & Batang</a>
-        <a href="#about">Hermafrodit</a>
-        <a href="#betina">Betina</a>
-        <a href="#jantan">Jantan</a>
-        <a href="#buah">Buah</a>
-        <a href="#identitas">Identitas</a>
+        <p>𝐃𝐚𝐟𝐭𝐚𝐫 𝐏𝐮𝐬𝐭𝐚𝐤𝐚:</p>
+        <p>Zhou, P., Fatima, M., Ma, X., Liu, J., & Ming, R. (2019). Auxin regulation involved in gynoecium
+          morphogenesis
+          of papaya flowers. <i>Horticulture Research</i>, 6, Article 119. https://doi.org/10.1038/s41438-019-0205-8</p>
       </div>
+    </div>
+  </section>
+  <!-- Betina Section end -->
 
-      <div class="credit">
-        <p>Created by <a href="">Yogiswara</a>. | &copy; 2026</p>
+  <!-- Jantan Section start-->
+  <section id="jantan" class="jantan">
+    <h2>Jantan</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/JANTAN 333.jpeg" alt="Tentang Kami">
       </div>
-    </footer>
-    <!-- Footer end -->
+      <div class="content">
+        <h3>Keterangan</h3>
+        <p> A. Bunga tampak atas; B. Bunga tampak samping; C. Kelopak; D. Bakal buah; E. Benang sari</p>
+        <p> Bunga jantan pepaya (<i>Carica papaya</i> L.) struktur orga reproduktif berupa benang sari. Bunganya
+          berukuran relatif kecil, berwarna putih kekuningan, dengan mahkota bunga berbentuk tabung memanjang dan
+          berlekuk pada bagian ujungnya. Secara morfologi, bunga jantan pepaya tidak berkembang menjadi buah karena
+          putiknya mengalami pistil abortion, yaitu aborsi atau reduksi perkembangan putik, sehingga tidak memiliki
+          bakal buah fungsional untuk membentuk buah (Xiang <i>et al.</i>, 2025).</p>
 
-    <!-- Feather Icons -->
-    <script>
-      feather.replace();
-    </script>
+        <p>𝐃𝐚𝐟𝐭𝐚𝐫 𝐏𝐮𝐬𝐭𝐚𝐤𝐚:</p>
+        <p>Xiang, T., Zhu, Y., Wang, Y., Chen, X., Zhang, Z., Lai, J., Zhou, P., Ming, R., & Yue, J. (2025). The dynamic
+          regulatory network of stamens and pistils in papaya. <i>BMC Plant Biology</i>, 25, 254, 1–23.
+          https://doi.org/10.1186/s12870-025-06242-1</p>
+      </div>
+    </div>
+  </section>
+  <!-- Jantan Section end-->
 
-    <!-- My JavaScript -->
-     <script src="JS/script.js"></script>
-  </body>
+  <!-- Buah Section start -->
+  <section id="buah" class="buah">
+    <h2>Buah</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/BUAH 33.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Keterangan</h3>
+        <p> A. Buah pepaya; B. Buah tampak irisan membujur; C. Buah tampak irisan melintang; D. Biji tua; E. Biji muda
+        </p>
+        <P> Pembentukan buah pada pepaya berkaitan erat dengan tipe bunga yang dihasilkam. Pepaya termasuk tanaman
+          trioecious, yanh memiliki tiga tipe bunga yakni jantan, betina, dan hermafrodit. Bunga jantan berperan sebagai
+          penghasil serbuk sari, tetapi umumnya tidak membentuk buah karena putiknya mengalami reduksi atau pistil
+          abortion. Sebaliknya, bunga betina memiliki putik dan bakal buah yang fungsional, sedangkan bunga hermafrodit
+          memiliki benang sari dan putik dalam satu bunga sehingga juga mampu membentuk buah setelah fertilisasi.
+          Penelitian oleh Xiang <i>et al.</i> (2025) menjelaskan bahwa pepaya memiliki tiga tipe seks, yaitu betina
+          (XX),
+          jantan (XY), dan hermafrodit (XYʰ), serta menegaskan bahwa pistil abortion pada bunga jantan menjadi aspek
+          penting dalam penentuan jenis kelamin pepaya. </P>
+        <p>𝐃𝐚𝐟𝐭𝐚𝐫 𝐏𝐮𝐬𝐭𝐚𝐤𝐚:</p>
+        <P> Xiang, T., Zhu, Y., Wang, Y., Chen, X., Zhang, Z., Lai, J., Zhou, P., Ming, R., & Yue, J. (2022). Gene
+          regulation network analyses of pistil development in papaya. <i>BMC Genomics</i>, 23, Article 43.
+          https://doi.org/10.1186/s12864-021-08197-7</P>
+      </div>
+    </div>
+  </section>
+  <!-- Buah Section end -->
+
+  <!-- Perbandingan Section start -->
+  <section id="perbandingan" class="perbandingan">
+    <h2>Perbandingan</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/perbandingan.jpeg" alt="Tentang Kami">
+      </div>
+    </div>
+  </section>
+  <!-- Perbandingan Section end -->
+
+  <!-- Identitas Section start -->
+  <section id="identitas" class="identitas">
+    <h2>Identitas</h2>
+
+    <div class="row">
+      <div class="content">
+        <h3>Disusun Oleh:</h3>
+        <p>Erlin Nazwa Zabrina NIM. 24030204031</p>
+        <p>Alfia Solihatin NIM. 24030204033</p>
+        <p>Zakiyatus Sholihah Kinanti NIM. 24030204036</p>
+
+        <h3>Dosen:</h3>
+        <p>Prof. Dr. Wisanti, M.S</p>
+        <p>Putut Rakhmad Purnama, S.Si., M.Si., Ph.D</p>
+      </div>
+    </div>
+  </section>
+  <!-- Identitas Section end -->
+
+  <!-- Footer start -->
+  <footer>
+
+    <div class="links">
+      <a href="#home">Deskripsi</a>
+      <a href="#perawakan">Perawakan</a>
+      <a href="#perawakan-daun-batang">Daun & Batang</a>
+      <a href="#about">Hermafrodit</a>
+      <a href="#betina">Betina</a>
+      <a href="#jantan">Jantan</a>
+      <a href="#buah">Buah</a>
+      <a href="#perbandingan">Perbandingan</a>
+      <a href="#identitas">Identitas</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">Yogiswara</a>. | &copy; 2026</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace();
+  </script>
+
+  <!-- My JavaScript -->
+  <script src="JS/script.js"></script>
+</body>
+
 </html>
